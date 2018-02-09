@@ -23,7 +23,7 @@
     <ol type="1"> 
       <li>Discuss responses to the homework prompt</li>
       <li>Prior knowledge assessment</li>
-      <li>Download the texts for analysis from GitHub and answer the following questions in groups of four:</li>
+      <li>Download the texts for analysis from GitHub. These files are labeled as follows: [Act #][Scene #]HamSol.txt. Then answer the following questions in small groups:</li>
         <ol type="a"> 
         <li>What do you notice about how the texts are constructed?</li>
         <li>Why might the texts have been prepared in these ways?</li>
