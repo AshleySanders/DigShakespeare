@@ -20,7 +20,6 @@
   
   <body>
   <h3><b>STAGE 1</b></h3>
-
     <ol type="1"> 
       <li>Discuss responses to the homework prompt</li>
       <li>Prior knowledge assessment</li>
