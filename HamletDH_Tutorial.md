@@ -1,5 +1,3 @@
-<DOCTYPE! html>
-
 <html>
   <head>
   <h1 style="text-decoration:underline;"><b>Hamlet DH Lesson</b></h1>
@@ -16,14 +14,14 @@
     <li>How might we use text analysis to explore issues of gender, power, and agency?</li>
   </ol>
   </body>
-  <!--I am a comment. Please use me to document what your code means.-->
+  
   
   <body>
   <h3><b>STAGE 1</b></h3>
     <ol type="1"> 
       <li>Discuss responses to the homework prompt</li>
-      <li>Prior knowledge assessment</li>
-      <li>Download the texts for analysis from GitHub. These files are labeled as follows: [Act #][Scene #]HamSol.txt. Then answer the following questions in small groups:</li>
+      <li><a href="https://goo.gl/forms/8fvfwqfdhgDq4mPW2">Complete prior knowledge assessment</a></li>
+      <li>Download the texts for analysis from <a href="https://github.com/AshleySanders/DigShakespeare/tree/master/Hamlet">GitHub</a>. These files are labeled as follows: [Act #][Scene #]HamSol.txt. Then answer the following questions in small groups:</li>
         <ol type="a"> 
         <li>What do you notice about how the texts are constructed?</li>
         <li>Why might the texts have been prepared in these ways?</li>
@@ -62,7 +60,7 @@
               <li>For what is KWIC an acronym?</li>
               <li>Choose 3 different keywords to view. What does the surrounding context of each of these words tell you about how Shakespeare is defining and using them?</li>
             </ol>
-            <li><a href="http://voyant-tools.org/?corpus=daaa71e1acbe221ad2ea67a0e66cba63&view=Cirrus">Collocates</a></li>
+            <li><a href="http://voyant-tools.org/?corpus=48a62d4176dfd66c76d85c8cd6de8805&query=heaven&query=villain&query=i%27ll&query=like&query=sleep&query=soul&query=father&query=heart&query=tis&query=bear&view=CorpusCollocates">Collocates</a></li>
               <ol type="a">
                 <li>There are 3 types of co-occurrence. Which does Voyant seem to use?</li>
                 <li>What is the window? Why is it important? What does changing it do?</li>
