@@ -54,6 +54,7 @@
                 <ol type="i">
                   <li>Explain how to: (1) change tool panels; (2) add and remove columns; and (3) sort columns.</li>
                   <li>What is <b>TF-IDF</b>? And what does it tell us about our text(s)?</li>
+                  <li>Interested in learning more about TF-IDF? Check out: <a href="https://deeplearning4j.org/bagofwords-tf-idf">https://deeplearning4j.org/bagofwords-tf-idf</a></li>
                 </ol>
             </ol>
             <li>KWIC</li>
