@@ -21,11 +21,12 @@
     <ol type="1"> 
       <li>Discuss responses to the homework prompt</li>
       <li><a href="https://goo.gl/forms/8fvfwqfdhgDq4mPW2">Complete prior knowledge assessment</a></li>
-      <li>Download the texts for analysis from <a href="https://github.com/AshleySanders/DigShakespeare/tree/master/Hamlet">GitHub</a>. These files are labeled as follows: [Act #][Scene #]HamSol.txt. Then answer the following questions in small groups:</li>
+      <li>Download all the texts in the Hamlet folder for analysis from <a href="https://github.com/AshleySanders/DigShakespeare/tree/master/Hamlet">GitHub</a>. The first set of files we will analyze are Hamlet's soliloquies, which are labeled as follows: [Act #][Scene #]HamSol.txt. Then answer the following questions in small groups:</li>
         <ol type="a"> 
-        <li>What do you notice about how the texts are constructed?</li>
-        <li>Why might the texts have been prepared in these ways?</li>
-        <li>What kinds of questions might you be able to ask and answer given the composition of the documents?</li>
+        <li>What do you notice about the composition of the documents?</li>
+        <li>Why might the text have been prepared in this way?</li>
+        <li>What kinds of questions might you be able to ask and answer given this partitioning of the play?</li>
+        <li>How else could the play be partitioned?</li>
         </ol>
       <li>Open a browser window and navigate to <a href="http://voyant-tools.org">Voyant Tools</a></li>
       <li>Upload Hamlet's 7 soliloquies.</li>
