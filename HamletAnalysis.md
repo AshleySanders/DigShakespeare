@@ -7,8 +7,6 @@
   <h2><a href="https://github.com/AshleySanders/DigShakespeare/blob/master/HamletDH_Tutorial.md">DH Tutorial - Stage 3</a></h2>
   <h3>Compare insights from the soliloquies with an analysis of the play, split into scenes.</h3>
   <body>
-
-<iframe width="560" height="315" src="https://www.youtube.com/embed/I3cjbB38Z4A" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
   
   <p>Next let's compare the trends of the most frequent words in the soliloquies and some of the most representative vocabulary from the play, broken into scenes:</p>
 
