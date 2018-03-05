@@ -1,2 +1,2 @@
 # DigShakespeare
-This repository contains files and information for the Spring 2018 Harvey Mudd Course Lit 179W: Global/Digital Shakespeare
+This repository contains files and information for the Spring 2018 Harvey Mudd Course Lit 179W: Global/Digital Shakespeare. It is available at: https://github.com/AshleySanders/DigShakespeare.
