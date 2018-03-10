@@ -1,0 +1,11 @@
+-----------------ATTENDANTS----------------
+(('Attendants', 'LODOVICO'), 7.233496773915066)
+(('Attendants', 'DUKE'), 6.764011490613848)
+(('Attendants', 'Enter'), 5.933936492056159)
+(('and', 'Attendants'), 5.889542372697706)
+(('Attendants', 'OTHELLO'), 4.894408127869523)
+(('Attendants', 'EMILIA'), 4.5531147081152294)
+(('Attendants', 'O'), 4.309445627148365)
+(('Attendants', 'with'), 3.911568679027706)
+(('Attendants', 'And'), 3.882274372233667)
+(('Attendants', 'IAGO'), 3.2997304723151526)
