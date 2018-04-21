@@ -1,0 +1,780 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?xml-stylesheet type="text/xsl" href="emmo.xsl"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<teiHeader>
+<fileDesc>
+<titleStmt>
+<title>Letter from Walter Bagot, Blithfield, to an unnamed female cousin, circa 1620 November 19: autograph manuscript draft</title>
+<author>Bagot, Walter</author>
+<respStmt xml:id="MSP">
+  <name>Michael Poston</name>
+  <resp>Encoding Architect</resp>
+</respStmt>
+<respStmt xml:id="CAR">
+  <name>Caitlin Rizzo</name>
+  <resp>Encoding Specialist</resp>
+</respStmt>
+<respStmt xml:id="EMMO">
+  <name>EMMO</name>
+  <resp>Transcriber</resp>
+</respStmt>
+<respStmt xml:id="Vet-SarahPowell">
+  <name>Vet-SarahPowell</name>
+  <resp>Transcription Collator</resp>
+</respStmt>
+</titleStmt>
+<editionStmt>
+<edition n="1.0">First release</edition>
+</editionStmt>
+<publicationStmt>
+<publisher>Folger Shakespeare Library</publisher>
+<idno>La160</idno>
+<address>
+<addrLine>201 East Capitol Street, SE</addrLine>
+<addrLine>Washington, DC 20003</addrLine>
+<addrLine>http://emmo.folger.edu</addrLine>
+<addrLine>emmo@folger.edu</addrLine>
+</address>
+<availability>
+<licence target="https://creativecommons.org/licenses/by-sa/4.0/">This allows you to use our transcriptions without additional permission provided that you cite the Early Modern Manuscripts Online (EMMO) Project at the Folger Shakespeare Library as the source and that you license anything you create using the transcriptions under the same or equivalent license. EMMO and the Folger waive permission fees for non-commercial publication by registered non-profits, including university presses, regardless of the license they use. For information about using the images that correspond to the transcriptions, see Image Permissions (http://www.folger.edu/permissions).</licence>
+</availability>
+<date>May, 2017</date>
+</publicationStmt>
+<sourceDesc>
+<listBibl>
+<msDesc xml:id="La160">
+<msIdentifier>
+<repository>Folger Shakespeare Library</repository>
+<collection xml:id="dfobagot">Papers of the Bagot family of Blithfield, Staffordshire</collection>
+<idno type="BBID">230544</idno>
+<msName>L.a.160</msName>
+</msIdentifier>
+<msContents>
+<msItem>
+<textLang>eng</textLang>
+<author>Bagot, Walter</author>
+<title>Letter from Walter Bagot, Blithfield, to an unnamed female cousin, circa 1620 November 19: autograph manuscript draft</title>
+</msItem>
+</msContents>
+<history>
+<origin when="1620-11-19">circa 1620 November 19</origin>
+</history>
+</msDesc>
+</listBibl>
+</sourceDesc>
+</fileDesc>
+<encodingDesc>
+<tagsDecl>
+<namespace name="http://www.tei-c.org/ns/1.0">
+<tagUsage gi="pb">Marks the beginning of a page or page spread.</tagUsage>
+<tagUsage gi="lb">Marks a line break in the manuscript.</tagUsage>
+<tagUsage gi="fw">Records information such as page numbers that appear on every page.</tagUsage>
+<tagUsage gi="note">Includes notes, including curatorial notes written on the manuscript.</tagUsage>
+<tagUsage gi="div">Marks a logical division of the text. In letters, for example, marks the body, superscription, endorsement, etc.</tagUsage>
+<tagUsage gi="head">Marks the page or div header.</tagUsage>
+<tagUsage gi="label">Marks labels in the text.</tagUsage>
+<tagUsage gi="p">Marks paragraphs in the text.</tagUsage>
+<tagUsage gi="opener">Contains opening information that appears outside a paragraph, for letter-like documents.</tagUsage>
+<tagUsage gi="closer">Contains closing information that appears outside a paragraph, for letter-like documents.</tagUsage>
+<tagUsage gi="postscript">Contains additional information that appears after the closer, for letter-like documents.</tagUsage>
+<tagUsage gi="seg">Used to mark other divisions in the text. For letter-like documents, the dateline, salute, and signed elements in our texts do not always follow the TEI model, and therefore they are marked by seg elements.</tagUsage>
+<tagUsage gi="add">Marks additions to the text, authorial and otherwise.</tagUsage>
+<tagUsage gi="abbr">Marks abbreviation markers, including brevigraphs, macrons, superscription, and suspension.</tagUsage>
+<tagUsage gi="g">Marks special characters such as the <term xml:id="thorn">thorn</term>, the archaic letter that looks like a "y" and may be updated to "th".</tagUsage>
+<tagUsage gi="metamark">Marks special characters that may function as abbreviation or insertion markers.</tagUsage>
+<tagUsage gi="w">Marks a word (or more, for compound words), giving the original and regularized versions.</tagUsage>
+<tagUsage gi="orig">Offers the transcription of a word used to generate the diplomatic and semi-diplomatic readings.</tagUsage>
+<tagUsage gi="reg">Offers the regularized spelling of a word.</tagUsage>
+<tagUsage gi="c">Marks a space character in the text.</tagUsage>
+<tagUsage gi="pc">Marks a punctuation character in the text.</tagUsage>
+<tagUsage gi="gap">Marks a place where the text is illegible.</tagUsage>
+<tagUsage gi="supplied">Marks a place where EMMO supplies illegible text.</tagUsage>
+<tagUsage gi="foreign">Marks non-English words.</tagUsage>
+<tagUsage gi="name">Identifies personal names in the text.</tagUsage>
+<tagUsage gi="placeName">Identifies place names in the text.</tagUsage>
+<tagUsage gi="title">Identifies titles in the text.</tagUsage>
+<tagUsage gi="measure">Identifies measurements and amounts in the text.</tagUsage>
+<tagUsage gi="hi">Marks sections of the text that are otherwise highlighted.</tagUsage>
+</namespace>
+</tagsDecl>
+<appInfo>
+<application ident="Dromio" version="0.5.0">
+<label>Dromio Transcription/Collation tool</label>
+</application>
+</appInfo>
+<projectDesc>
+<p>EMMO: Early Modern Manuscripts Online</p>
+</projectDesc>
+</encodingDesc>
+<profileDesc>
+<textClass>
+<keywords>
+<term>Letters</term>
+</keywords>
+</textClass>
+</profileDesc>
+<revisionDesc>
+<change when="2017-05-18" status="published" who="#MSP #CAR">Version 1.0 released</change>
+<change when="2017-02-10T08:37:00-05:00" status="processed" who="#CAR #MSP">Encoding updated. Spelling regularized with help from VARD.</change>
+<change when="2017-01-12T13:17:48-05:00" target="#RF-39190" status="draft" who="#Vet-SarahPowell"/>
+<change when="2016-11-16T16:27:48-05:00" target="#RF-39190" status="draft" who="#Vet-SarahPowell"/>
+<change when="2016-11-16T11:56:46-05:00" target="#RF-39191" status="draft" who="#Vet-SarahPowell"/>
+<change when="2016-11-15T15:47:05-05:00" target="#RF-39191" status="draft" who="#Vet-SarahPowell"/>
+<change when="2016-11-15T15:47:00-05:00" target="#RF-39191" status="arbitration" who="#Vet-SarahPowell"/>
+<change when="2016-11-15T15:46:48-05:00" target="#RF-39191" status="draft" who="#EMMO"/>
+<change when="2016-06-06T08:36:05-04:00">Updated to version 0.5.0</change>
+</revisionDesc>
+</teiHeader>
+<sourceDoc corresp="La160">
+<surface xml:id="RF-39190" n="leaf 1 recto">
+<media url="http://flgr.sh/imgpdi39190" mimeType="image/jpeg"/>
+</surface>
+<surface xml:id="RF-39191" n="leaf 1 verso">
+<media url="http://flgr.sh/imgpdi39191" mimeType="image/jpeg"/>
+</surface>
+</sourceDoc>
+<text>
+<body>
+<pb n="leaf 1 recto"/>
+<note xml:id="note-001" type="administrative" subtype="callNum">L.a.160</note>
+<div xml:id="div-001" type="letter">
+<div xml:id="div-002" type="letter" subtype="body">
+<p xml:id="seg-001">
+<seg xml:id="seg-002" type="salute" subtype="opener">
+<w xml:id="w0000010">Good</w>
+<c xml:id="c0000020"> </c>
+<w xml:id="w0000030"><choice><orig>cosin</orig><reg>cousin</reg></choice></w>
+</seg>
+<c xml:id="c0000040"> </c>
+<w xml:id="w0000050">I</w>
+<c xml:id="c0000060"> </c>
+<w xml:id="w0000070">am</w>
+<c xml:id="c0000080"> </c>
+<w xml:id="w0000090">very</w>
+<c xml:id="c0000100"> </c>
+<w xml:id="w0000110"><choice><orig>sory</orig><reg>sorry</reg></choice></w>
+<c xml:id="c0000120"> </c>
+<w xml:id="w0000130">for</w>
+<c xml:id="c0000140"> </c>
+<w xml:id="w0000150">that</w>
+<c xml:id="c0000160"> </c>
+<w xml:id="w0000170">you</w>
+<c xml:id="c0000180"> </c>
+<w xml:id="w0000190"><choice><orig>continewe</orig><reg>continue</reg></choice></w>
+<c xml:id="c0000200"> </c>
+<w xml:id="w0000210">in</w>
+<c xml:id="c0000220"> </c>
+<add type="authorial">
+<w xml:id="w0000230">the</w>
+</add>
+<c xml:id="c0000240"> </c>
+<w xml:id="w0000250"><choice><orig>restraynt</orig><reg>restraint</reg></choice></w>
+<c xml:id="c0000260"> </c>
+<w xml:id="w0000270">of</w>
+<c xml:id="c0000280"> </c>
+<w xml:id="w0000290">your</w>
+<c xml:id="c0000300"> </c>
+<w xml:id="w0000310"><choice><orig>libertie</orig><reg>liberty</reg></choice></w>
+<lb xml:id="lb-0001"/>
+<w xml:id="w0000320">And</w>
+<c xml:id="c0000330"> </c>
+<w xml:id="w0000340"><choice><orig>allthough</orig><reg>although</reg></choice></w>
+<c xml:id="c0000350"> </c>
+<w xml:id="w0000360">my</w>
+<c xml:id="c0000370"> </c>
+<w xml:id="w0000380">occasions</w>
+<c xml:id="c0000390"> </c>
+<w xml:id="w0000400"><choice><orig>bee</orig><reg>be</reg></choice></w>
+<c xml:id="c0000410"> </c>
+<w xml:id="w0000420">such</w>
+<c xml:id="c0000430"> </c>
+<add type="authorial">
+<metamark xml:id="m0000440" function="insertion">^</metamark>
+<w xml:id="w0000450"><choice><orig><g ref="#thorn">th</g><abbr type="superscription"><ex>a</ex>t</abbr></orig><reg>that</reg></choice></w>
+</add>
+<c xml:id="c0000460"> </c>
+<w xml:id="w0000470">as</w>
+<c xml:id="c0000480"> </c>
+<w xml:id="w0000490">I</w>
+<c xml:id="c0000500"> </c>
+<w xml:id="w0000510"><choice><orig><w xml:id="w0000510a">can</w><c xml:id="c0000510b"> </c><w xml:id="w0000510c">not</w></orig><reg>cannot</reg></choice></w>
+<c xml:id="c0000520"> </c>
+<pc xml:id="p0000530">(</pc>
+<w xml:id="w0000540">as</w>
+<c xml:id="c0000550"> </c>
+<w xml:id="w0000560">I</w>
+<c xml:id="c0000570"> </c>
+<w xml:id="w0000580"><choice><orig>desier</orig><reg>desire</reg></choice></w>
+<pc xml:id="p0000590">)</pc>
+<c xml:id="c0000600"> </c>
+<w xml:id="w0000610">come</w>
+<c xml:id="c0000620"> </c>
+<w xml:id="w0000630">see</w>
+<c xml:id="c0000640"> </c>
+<w xml:id="w0000650">you</w>
+<lb xml:id="lb-0002"/>
+<w xml:id="w0000660">yet</w>
+<c xml:id="c0000670"> </c>
+<w xml:id="w0000680">in</w>
+<c xml:id="c0000690"> </c>
+<w xml:id="w0000700">regard</w>
+<c xml:id="c0000710"> </c>
+<w xml:id="w0000720">of</w>
+<c xml:id="c0000730"> </c>
+<w xml:id="w0000740"><choice><orig>affinitie</orig><reg>affinity</reg></choice></w>
+<pc xml:id="p0000750">,</pc>
+<c xml:id="c0000760"> </c>
+<w xml:id="w0000770">and</w>
+<c xml:id="c0000780"> </c>
+<w xml:id="w0000790">old</w>
+<c xml:id="c0000800"> </c>
+<w xml:id="w0000810"><choice><orig>loue</orig><reg>love</reg></choice></w>
+<pc xml:id="p0000820">,</pc>
+<c xml:id="c0000830"> </c>
+<w xml:id="w0000840"><choice><orig>frendship</orig><reg>friendship</reg></choice></w>
+<c xml:id="c0000850"> </c>
+<w xml:id="w0000860">&amp;</w>
+<c xml:id="c0000870"> </c>
+<w xml:id="w0000880"><choice><orig>familiaritie</orig><reg>familiarity</reg></choice></w>
+<pc xml:id="p0000890">,</pc>
+<c xml:id="c0000900"> </c>
+<w xml:id="w0000910">I</w>
+<c xml:id="c0000920"> </c>
+<w xml:id="w0000930"><choice><orig><w xml:id="w0000930a">can</w><c xml:id="c0000930b"> </c><w xml:id="w0000930c">not</w></orig><reg>cannot</reg></choice></w>
+<lb xml:id="lb-0003"/>
+<w xml:id="w0000940">but</w>
+<c xml:id="c0000950"> </c>
+<w xml:id="w0000960">by</w>
+<c xml:id="c0000970"> </c>
+<w xml:id="w0000980">letters</w>
+<c xml:id="c0000990"> </c>
+<w xml:id="w0001000">remember</w>
+<c xml:id="c0001010"> </c>
+<w xml:id="w0001020">you</w>
+<c xml:id="c0001030"> </c>
+<w xml:id="w0001040">least</w>
+<c xml:id="c0001050"> </c>
+<w xml:id="w0001060">you</w>
+<c xml:id="c0001070"> </c>
+<w xml:id="w0001080"><choice><orig>shold</orig><reg>should</reg></choice></w>
+<c xml:id="c0001090"> </c>
+<w xml:id="w0001100"><choice><orig>thinke</orig><reg>think</reg></choice></w>
+<c xml:id="c0001110"> </c>
+<w xml:id="w0001120"><choice><orig>mee</orig><reg>me</reg></choice></w>
+<c xml:id="c0001130"> </c>
+<w xml:id="w0001140"><choice><orig>vnmyndfull</orig><reg>unmindful</reg></choice></w>
+<c xml:id="c0001150"> </c>
+<w xml:id="w0001160">of</w>
+<lb xml:id="lb-0004"/>
+<w xml:id="w0001170">my</w>
+<c xml:id="c0001180"> </c>
+<w xml:id="w0001190"><choice><orig>frend<abbr type="brevigraph" subtype="brev-es">es</abbr></orig><reg>friends</reg></choice></w>
+<c xml:id="c0001200"> </c>
+<w xml:id="w0001210">and</w>
+<c xml:id="c0001220"> </c>
+<w xml:id="w0001230"><choice><orig>carelesse</orig><reg>careless</reg></choice></w>
+<c xml:id="c0001240"> </c>
+<w xml:id="w0001250">of</w>
+<c xml:id="c0001260"> </c>
+<w xml:id="w0001270">their</w>
+<c xml:id="c0001280"> </c>
+<w xml:id="w0001290"><choice><orig>aduerse</orig><reg>adverse</reg></choice></w>
+<c xml:id="c0001300"> </c>
+<w xml:id="w0001310">estate</w>
+<pc xml:id="p0001320">.</pc>
+<c xml:id="c0001330"> </c>
+<w xml:id="w0001340">These</w>
+<c xml:id="c0001350"> </c>
+<w xml:id="w0001360">are</w>
+<c xml:id="c0001370"> </c>
+<w xml:id="w0001380">the</w>
+<c xml:id="c0001390"> </c>
+<w xml:id="w0001400">occasions</w>
+<c xml:id="c0001410"> </c>
+<del>
+<w xml:id="w0001420">of</w>
+</del>
+<c xml:id="c0001430"> </c>
+<w xml:id="w0001440">that</w>
+<lb xml:id="lb-0005"/>
+<w xml:id="w0001450"><choice><orig>haue</orig><reg>have</reg></choice></w>
+<c xml:id="c0001460"> </c>
+<w xml:id="w0001470"><choice><orig>moued</orig><reg>moved</reg></choice></w>
+<c xml:id="c0001480"> </c>
+<w xml:id="w0001490"><choice><orig>mee</orig><reg>me</reg></choice></w>
+<c xml:id="c0001500"> </c>
+<w xml:id="w0001510">first</w>
+<c xml:id="c0001520"> </c>
+<w xml:id="w0001530">to</w>
+<c xml:id="c0001540"> </c>
+<w xml:id="w0001550"><choice><orig>wryte</orig><reg>write</reg></choice></w>
+<c xml:id="c0001560"> </c>
+<w xml:id="w0001570">secondly</w>
+<c xml:id="c0001580"> </c>
+<w xml:id="w0001590">at</w>
+<c xml:id="c0001600"> </c>
+<w xml:id="w0001610">your</w>
+<c xml:id="c0001620"> </c>
+<w xml:id="w0001630"><choice><orig>leasure</orig><reg>leisure</reg></choice></w>
+<c xml:id="c0001640"> </c>
+<w xml:id="w0001650">to</w>
+<c xml:id="c0001660"> </c>
+<w xml:id="w0001670"><choice><orig>craue</orig><reg>crave</reg></choice></w>
+<c xml:id="c0001680"> </c>
+<w xml:id="w0001690">I</w>
+<c xml:id="c0001700"> </c>
+<w xml:id="w0001710"><choice><orig>maye</orig><reg>may</reg></choice></w>
+<c xml:id="c0001720"> </c>
+<w xml:id="w0001730"><choice><orig>knowe</orig><reg>know</reg></choice></w>
+<c xml:id="c0001740"> </c>
+<w xml:id="w0001750">how</w>
+<lb xml:id="lb-0006"/>
+<w xml:id="w0001760">you</w>
+<c xml:id="c0001770"> </c>
+<w xml:id="w0001780">are</w>
+<c xml:id="c0001790"> </c>
+<w xml:id="w0001800"><choice><orig><abbr type="brevigraph" subtype="brev-p">p<ex>ro</ex></abbr>secuted</orig><reg>persecuted</reg></choice></w>
+<c xml:id="c0001810"> </c>
+<w xml:id="w0001820">by</w>
+<c xml:id="c0001830"> </c>
+<w xml:id="w0001840">your</w>
+<c xml:id="c0001850"> </c>
+<w xml:id="w0001860"><choice><orig>enviouse</orig><reg>envious</reg></choice></w>
+<c xml:id="c0001870"> </c>
+<w xml:id="w0001880"><choice><orig>aduersaries</orig><reg>adversaries</reg></choice></w>
+<c xml:id="c0001890"> </c>
+<w xml:id="w0001900">whose</w>
+<c xml:id="c0001910"> </c>
+<w xml:id="w0001920"><choice><orig>mynd<abbr type="brevigraph" subtype="brev-es">es</abbr></orig><reg>minds</reg></choice></w>
+<c xml:id="c0001930"> </c>
+<w xml:id="w0001940">are</w>
+<c xml:id="c0001950"> </c>
+<pc xml:id="p0001960">(</pc>
+<w xml:id="w0001970">no</w>
+<c xml:id="c0001980"> </c>
+<w xml:id="w0001990">doubt</w>
+<pc xml:id="p0002000">)</pc>
+<lb xml:id="lb-0007"/>
+<w xml:id="w0002010">as</w>
+<c xml:id="c0002020"> </c>
+<w xml:id="w0002030">well</w>
+<c xml:id="c0002040"> </c>
+<w xml:id="w0002050"><choice><orig>fraight</orig><reg>fraught</reg></choice></w>
+<c xml:id="c0002060"> </c>
+<w xml:id="w0002070">with</w>
+<c xml:id="c0002080"> </c>
+<w xml:id="w0002090"><choice><orig>malitiouse</orig><reg>malicious</reg></choice></w>
+<c xml:id="c0002100"> </c>
+<w xml:id="w0002110"><choice><orig>deuises</orig><reg>devices</reg></choice></w>
+<c xml:id="c0002120"> </c>
+<w xml:id="w0002130">to</w>
+<c xml:id="c0002140"> </c>
+<w xml:id="w0002150"><choice><orig>intangle</orig><reg>entangle</reg></choice></w>
+<c xml:id="c0002160"> </c>
+<w xml:id="w0002170">you</w>
+<c xml:id="c0002180"> </c>
+<w xml:id="w0002190">into</w>
+<c xml:id="c0002200"> </c>
+<w xml:id="w0002210"><choice><orig>farthe<abbr type="superscription">r</abbr></orig><reg>farther</reg></choice></w>
+<c xml:id="c0002220"> </c>
+<w xml:id="w0002230"><choice><orig>trobles</orig><reg>troubles</reg></choice></w>
+<lb xml:id="lb-0008"/>
+<w xml:id="w0002240">as</w>
+<c xml:id="c0002250"> </c>
+<w xml:id="w0002260"><choice><orig>there</orig><reg>their</reg></choice></w>
+<c xml:id="c0002270"> </c>
+<w xml:id="w0002280"><choice><orig>mouthes</orig><reg>mouths</reg></choice></w>
+<c xml:id="c0002290"> </c>
+<w xml:id="w0002300">are</w>
+<c xml:id="c0002310"> </c>
+<w xml:id="w0002320">full</w>
+<c xml:id="c0002330"> </c>
+<w xml:id="w0002340">of</w>
+<c xml:id="c0002350"> </c>
+<w xml:id="w0002360">false</w>
+<c xml:id="c0002370"> </c>
+<w xml:id="w0002380"><choice><orig>report<abbr type="brevigraph" subtype="brev-es">es</abbr></orig><reg>reports</reg></choice></w>
+<c xml:id="c0002390"> </c>
+<w xml:id="w0002400"><choice><orig>w<abbr type="superscription"><ex>hi</ex>ch</abbr></orig><reg>which</reg></choice></w>
+<c xml:id="c0002410"> </c>
+<w xml:id="w0002420">I</w>
+<c xml:id="c0002430"> </c>
+<add type="authorial">
+<w xml:id="w0002440">I</w>
+<c xml:id="c0002450"> </c>
+<w xml:id="w0002460">hope</w>
+</add>
+<c xml:id="c0002470"> </c>
+<del>
+<w xml:id="w0002480">doubt</w>
+<c xml:id="c0002490"> </c>
+<w xml:id="w0002500">not</w>
+<c xml:id="c0002510"> </c>
+<w xml:id="w0002520">but</w>
+</del>
+<c xml:id="c0002530"> </c>
+<w xml:id="w0002540">in</w>
+<c xml:id="c0002550"> </c>
+<w xml:id="w0002560">the</w>
+<c xml:id="c0002570"> </c>
+<w xml:id="w0002580">end</w>
+<c xml:id="c0002590"> </c>
+<w xml:id="w0002600">will</w>
+<lb xml:id="lb-0009"/>
+<w xml:id="w0002610">fall</w>
+<c xml:id="c0002620"> </c>
+<w xml:id="w0002630">out</w>
+<c xml:id="c0002640"> </c>
+<w xml:id="w0002650">to</w>
+<c xml:id="c0002660"> </c>
+<w xml:id="w0002670"><choice><orig>there</orig><reg>their</reg></choice></w>
+<c xml:id="c0002680"> </c>
+<w xml:id="w0002690"><choice><orig>owne</orig><reg>own</reg></choice></w>
+<c xml:id="c0002700"> </c>
+<w xml:id="w0002710">shame</w>
+<c xml:id="c0002720"> </c>
+<w xml:id="w0002730">and</w>
+<c xml:id="c0002740"> </c>
+<w xml:id="w0002750"><choice><orig>discredicte</orig><reg>discredit</reg></choice></w>
+<pc xml:id="p0002760">.</pc>
+<c xml:id="c0002770"> </c>
+<w xml:id="w0002780">And</w>
+<c xml:id="c0002790"> </c>
+<w xml:id="w0002800"><choice><orig>allthough</orig><reg>although</reg></choice></w>
+<c xml:id="c0002810"> </c>
+<w xml:id="w0002820">I</w>
+<c xml:id="c0002830"> </c>
+<del>
+<w xml:id="w0002840">make</w>
+<c xml:id="c0002850"> </c>
+<w xml:id="w0002860">no</w>
+<c xml:id="c0002870"> </c>
+<w xml:id="w0002880">doubt</w>
+</del>
+<c xml:id="c0002890"> </c>
+<add type="authorial">
+<w xml:id="w0002900">am</w>
+<c xml:id="c0002910"> </c>
+<w xml:id="w0002920">assured</w>
+</add>
+<c xml:id="c0002930"> </c>
+<add type="authorial">
+<del>
+<w xml:id="w0002940">I</w>
+<c xml:id="c0002950"> </c>
+<w xml:id="w0002960">will</w>
+</del>
+</add>
+<lb xml:id="lb-0010"/>
+<w xml:id="w0002970">your</w>
+<c xml:id="c0002980"> </c>
+<w xml:id="w0002990"><choice><orig>innocensie</orig><reg>innocency</reg></choice></w>
+<c xml:id="c0003000"> </c>
+<w xml:id="w0003010">is</w>
+<c xml:id="c0003020"> </c>
+<w xml:id="w0003030">such</w>
+<c xml:id="c0003040"> </c>
+<w xml:id="w0003050">as</w>
+<c xml:id="c0003060"> </c>
+<w xml:id="w0003070">you</w>
+<c xml:id="c0003080"> </c>
+<w xml:id="w0003090"><choice><orig>neede</orig><reg>need</reg></choice></w>
+<c xml:id="c0003100"> </c>
+<w xml:id="w0003110">not</w>
+<c xml:id="c0003120"> </c>
+<w xml:id="w0003130"><choice><orig>feare</orig><reg>fear</reg></choice></w>
+<c xml:id="c0003140"> </c>
+<w xml:id="w0003150"><choice><orig>there</orig><reg>their</reg></choice></w>
+<c xml:id="c0003160"> </c>
+<w xml:id="w0003170"><choice><orig>vnhonest</orig><reg>unhonest</reg></choice></w>
+<c xml:id="c0003180"> </c>
+<w xml:id="w0003190"><choice><orig>practises</orig><reg>practices</reg></choice></w>
+<c xml:id="c0003200"> </c>
+<w xml:id="w0003210">yet</w>
+<lb xml:id="lb-0011"/>
+<w xml:id="w0003220">I</w>
+<c xml:id="c0003230"> </c>
+<w xml:id="w0003240"><choice><orig>wold</orig><reg>would</reg></choice></w>
+<c xml:id="c0003250"> </c>
+<w xml:id="w0003260"><choice><orig>wishe</orig><reg>wish</reg></choice></w>
+<c xml:id="c0003270"> </c>
+<w xml:id="w0003280">you</w>
+<c xml:id="c0003290"> </c>
+<w xml:id="w0003300"><choice><orig>bee</orig><reg>be</reg></choice></w>
+<c xml:id="c0003310"> </c>
+<w xml:id="w0003320">very</w>
+<c xml:id="c0003330"> </c>
+<w xml:id="w0003340"><choice><orig>cercumspecte</orig><reg>circumspect</reg></choice></w>
+<c xml:id="c0003350"> </c>
+<add type="authorial">
+<w xml:id="w0003360"><choice><orig>beeinge</orig><reg>being</reg></choice></w>
+</add>
+<c xml:id="c0003370"> </c>
+<del>
+<w xml:id="w0003380">in</w>
+<c xml:id="c0003390"> </c>
+<w xml:id="w0003400">regard</w>
+</del>
+<c xml:id="c0003410"> </c>
+<del>
+<w xml:id="w0003420">you</w>
+<c xml:id="c0003430"> </c>
+<w xml:id="w0003440">are</w>
+</del>
+<c xml:id="c0003450"> </c>
+<w xml:id="w0003460">matched</w>
+<c xml:id="c0003470"> </c>
+<w xml:id="w0003480">with</w>
+<c xml:id="c0003490"> </c>
+<w xml:id="w0003500">such</w>
+<lb xml:id="lb-0012"/>
+<w xml:id="w0003510"><choice><orig>aduersaries</orig><reg>adversaries</reg></choice></w>
+<c xml:id="c0003520"> </c>
+<w xml:id="w0003530">as</w>
+<c xml:id="c0003540"> </c>
+<w xml:id="w0003550"><choice><orig>haue</orig><reg>have</reg></choice></w>
+<c xml:id="c0003560"> </c>
+<w xml:id="w0003570">no</w>
+<c xml:id="c0003580"> </c>
+<w xml:id="w0003590">regard</w>
+<c xml:id="c0003600"> </c>
+<w xml:id="w0003610"><choice><orig>ether</orig><reg>either</reg></choice></w>
+<c xml:id="c0003620"> </c>
+<w xml:id="w0003630">of</w>
+<c xml:id="c0003640"> </c>
+<w xml:id="w0003650"><choice><orig>their</orig><reg>there</reg></choice></w>
+<c xml:id="c0003660"> </c>
+<w xml:id="w0003670">word</w>
+<pc xml:id="p0003680">,</pc>
+<c xml:id="c0003690"> </c>
+<del>
+<w xml:id="w0003700">or</w>
+<c xml:id="c0003710"> </c>
+<w xml:id="w0003720"><choice><orig>othe</orig><reg>oath</reg></choice></w>
+</del>
+<c xml:id="c0003730"> </c>
+<w xml:id="w0003740">faith</w>
+<pc xml:id="p0003750">,</pc>
+<c xml:id="c0003760"> </c>
+<w xml:id="w0003770"><choice><orig>feare</orig><reg>fear</reg></choice></w>
+<lb xml:id="lb-0013"/>
+<w xml:id="w0003780">of</w>
+<c xml:id="c0003790"> </c>
+<w xml:id="w0003800">god</w>
+<c xml:id="c0003810"> </c>
+<w xml:id="w0003820">or</w>
+<c xml:id="c0003830"> </c>
+<w xml:id="w0003840">shame</w>
+<c xml:id="c0003850"> </c>
+<w xml:id="w0003860">of</w>
+<c xml:id="c0003870"> </c>
+<w xml:id="w0003880">the</w>
+<c xml:id="c0003890"> </c>
+<w xml:id="w0003900">world</w>
+<c xml:id="c0003910"> </c>
+<w xml:id="w0003920">and</w>
+<c xml:id="c0003930"> </c>
+<w xml:id="w0003940"><choice><orig>therfore</orig><reg>therefore</reg></choice></w>
+<c xml:id="c0003950"> </c>
+<w xml:id="w0003960">are</w>
+<c xml:id="c0003970"> </c>
+<w xml:id="w0003980">men</w>
+<c xml:id="c0003990"> </c>
+<w xml:id="w0004000">most</w>
+<c xml:id="c0004010"> </c>
+<w xml:id="w0004020"><choice><orig>daungerose</orig><reg>dangerous</reg></choice></w>
+<c xml:id="c0004030"> </c>
+<w xml:id="w0004040">to</w>
+<c xml:id="c0004050"> </c>
+<w xml:id="w0004060"><choice><orig>bee</orig><reg>be</reg></choice></w>
+<lb xml:id="lb-0014"/>
+<w xml:id="w0004070">dealt</w>
+<c xml:id="c0004080"> </c>
+<w xml:id="w0004090">with</w>
+<c xml:id="c0004100"> </c>
+<w xml:id="w0004110">all</w>
+<pc xml:id="p0004120">.</pc>
+<c xml:id="c0004130"> </c>
+<w xml:id="w0004140">such</w>
+<c xml:id="c0004150"> </c>
+<w xml:id="w0004160">as</w>
+<c xml:id="c0004170"> </c>
+<w xml:id="w0004180">will</w>
+<c xml:id="c0004190"> </c>
+<w xml:id="w0004200"><choice><orig>speake</orig><reg>speak</reg></choice></w>
+<c xml:id="c0004210"> </c>
+<w xml:id="w0004220">and</w>
+<c xml:id="c0004230"> </c>
+<w xml:id="w0004240"><choice><orig>vnspeake</orig><reg>unspeak</reg></choice></w>
+<c xml:id="c0004250"> </c>
+<w xml:id="w0004260"><choice><orig>sweare</orig><reg>swear</reg></choice></w>
+<c xml:id="c0004270"> </c>
+<w xml:id="w0004280">and</w>
+<c xml:id="c0004290"> </c>
+<w xml:id="w0004300"><choice><orig>vnswere</orig><reg>unswear</reg></choice></w>
+<c xml:id="c0004310"> </c>
+<w xml:id="w0004320">any</w>
+<lb xml:id="lb-0015"/>
+<w xml:id="w0004330"><choice><orig>tinge</orig><reg>thing</reg></choice></w>
+<c xml:id="c0004340"> </c>
+<w xml:id="w0004350"><choice><orig>beeinge</orig><reg>being</reg></choice></w>
+<c xml:id="c0004360"> </c>
+<w xml:id="w0004370"><choice><orig>neuer</orig><reg>never</reg></choice></w>
+<c xml:id="c0004380"> </c>
+<w xml:id="w0004390">so</w>
+<c xml:id="c0004400"> </c>
+<w xml:id="w0004410">manifest</w>
+<c xml:id="c0004420"> </c>
+<w xml:id="w0004430">so</w>
+<c xml:id="c0004440"> </c>
+<w xml:id="w0004450">that</w>
+<c xml:id="c0004460"> </c>
+<w xml:id="w0004470">it</w>
+<c xml:id="c0004480"> </c>
+<w xml:id="w0004490"><choice><orig>maye</orig><reg>may</reg></choice></w>
+<c xml:id="c0004500"> </c>
+<w xml:id="w0004510"><choice><orig>serue</orig><reg>serve</reg></choice></w>
+<c xml:id="c0004520"> </c>
+<w xml:id="w0004530">to</w>
+<c xml:id="c0004540"> </c>
+<w xml:id="w0004550">the</w>
+<c xml:id="c0004560"> </c>
+<w xml:id="w0004570"><choice><orig>effectinge</orig><reg>effecting</reg></choice></w>
+<c xml:id="c0004580"> </c>
+<w xml:id="w0004590">their</w>
+<lb xml:id="lb-0016"/>
+<w xml:id="w0004600">vile</w>
+<c xml:id="c0004610"> </c>
+<w xml:id="w0004620"><choice><orig>practises</orig><reg>practices</reg></choice></w>
+<pc xml:id="p0004630">.</pc>
+<c xml:id="c0004640"> </c>
+<w xml:id="w0004650">Lastly</w>
+<c xml:id="c0004660"> </c>
+<w xml:id="w0004670">to</w>
+<c xml:id="c0004680"> </c>
+<w xml:id="w0004690">offer</w>
+<c xml:id="c0004700"> </c>
+<w xml:id="w0004710"><choice><orig><w xml:id="w0004710a">my</w><c xml:id="c0004710b"> </c><w xml:id="w0004710c">selfe</w></orig><reg>myself</reg></choice></w>
+<c xml:id="c0004720"> </c>
+<w xml:id="w0004730"><choice><orig>vnto</orig><reg>unto</reg></choice></w>
+<c xml:id="c0004740"> </c>
+<w xml:id="w0004750">you</w>
+<c xml:id="c0004760"> </c>
+<w xml:id="w0004770">in</w>
+<c xml:id="c0004780"> </c>
+<w xml:id="w0004790">all</w>
+<c xml:id="c0004800"> </c>
+<w xml:id="w0004810"><choice><orig>loue</orig><reg>love</reg></choice></w>
+<c xml:id="c0004820"> </c>
+<w xml:id="w0004830">&amp;</w>
+<c xml:id="c0004840"> </c>
+<w xml:id="w0004850"><choice><orig>frendship</orig><reg>friendship</reg></choice></w>
+<lb xml:id="lb-0017"/>
+<w xml:id="w0004860">and</w>
+<c xml:id="c0004870"> </c>
+<w xml:id="w0004880">to</w>
+<c xml:id="c0004890"> </c>
+<w xml:id="w0004900">assure</w>
+<c xml:id="c0004910"> </c>
+<w xml:id="w0004920">you</w>
+<c xml:id="c0004930"> </c>
+<w xml:id="w0004940">of</w>
+<c xml:id="c0004950"> </c>
+<w xml:id="w0004960"><choice><orig><w xml:id="w0004960a">any</w><c xml:id="c0004960b"> </c><w xml:id="w0004960c">thinge</w></orig><reg>anything</reg></choice></w>
+<c xml:id="c0004970"> </c>
+<w xml:id="w0004980"><choice><orig>whatsoeuer</orig><reg>whatsoever</reg></choice></w>
+<c xml:id="c0004990"> </c>
+<w xml:id="w0005000">my</w>
+<c xml:id="c0005010"> </c>
+<w xml:id="w0005020"><choice><orig>poore</orig><reg>poor</reg></choice></w>
+<c xml:id="c0005030"> </c>
+<w xml:id="w0005040"><choice><orig>credicte</orig><reg>credit</reg></choice></w>
+<c xml:id="c0005050"> </c>
+<w xml:id="w0005060">and</w>
+<c xml:id="c0005070"> </c>
+<w xml:id="w0005080"><choice><orig>endeuor</orig><reg>endeavor</reg></choice></w>
+<lb xml:id="lb-0018"/>
+<w xml:id="w0005090"><choice><orig>maye</orig><reg>may</reg></choice></w>
+<c xml:id="c0005100"> </c>
+<w xml:id="w0005110"><choice><orig>aforde</orig><reg>afford</reg></choice></w>
+<c xml:id="c0005120"> </c>
+<w xml:id="w0005130"><choice><orig>Thinke</orig><reg>Think</reg></choice></w>
+<c xml:id="c0005140"> </c>
+<w xml:id="w0005150">on</w>
+<c xml:id="c0005160"> </c>
+<w xml:id="w0005170"><choice><orig>mee</orig><reg>me</reg></choice></w>
+<c xml:id="c0005180"> </c>
+<w xml:id="w0005190">as</w>
+<c xml:id="c0005200"> </c>
+<w xml:id="w0005210">your</w>
+<c xml:id="c0005220"> </c>
+<w xml:id="w0005230"><choice><orig>frend</orig><reg>friend</reg></choice></w>
+<c xml:id="c0005240"> </c>
+<w xml:id="w0005250"><choice><orig>Kynsman</orig><reg>Kinsman</reg></choice></w>
+<c xml:id="c0005260"> </c>
+<w xml:id="w0005270">and</w>
+<c xml:id="c0005280"> </c>
+<w xml:id="w0005290"><choice><orig>wellwiller</orig><reg>well-willer</reg></choice></w>
+<c xml:id="c0005300"> </c>
+<w xml:id="w0005310">And</w>
+<lb xml:id="lb-0019"/>
+<w xml:id="w0005320">so</w>
+<c xml:id="c0005330"> </c>
+<w xml:id="w0005340">with</w>
+<c xml:id="c0005350"> </c>
+<w xml:id="w0005360">my</w>
+<c xml:id="c0005370"> </c>
+<w xml:id="w0005380"><choice><orig>hartiest</orig><reg>heartiest</reg></choice></w>
+<c xml:id="c0005390"> </c>
+<w xml:id="w0005400"><choice><orig>comendacons</orig><reg>commendation</reg></choice></w>
+<c xml:id="c0005410"> </c>
+<w xml:id="w0005420"><choice><orig>vnto</orig><reg>unto</reg></choice></w>
+<c xml:id="c0005430"> </c>
+<w xml:id="w0005440">my</w>
+<c xml:id="c0005450"> </c>
+<w xml:id="w0005460"><choice><orig>L<ex>ord</ex></orig><reg>Lord</reg></choice></w>
+<c xml:id="c0005470"> </c>
+<w xml:id="w0005480">and</w>
+<c xml:id="c0005490"> </c>
+<w xml:id="w0005500"><choice><orig><w xml:id="w0005500a">your</w><c xml:id="c0005500b"> </c><w xml:id="w0005500c">selfe</w></orig><reg>yourself</reg></choice></w>
+<c xml:id="c0005510"> </c>
+<w xml:id="w0005520">from</w>
+<lb xml:id="lb-0020"/>
+<w xml:id="w0005530"><choice><orig>mee</orig><reg>me</reg></choice></w>
+<c xml:id="c0005540"> </c>
+<w xml:id="w0005550">and</w>
+<c xml:id="c0005560"> </c>
+<w xml:id="w0005570">my</w>
+<c xml:id="c0005580"> </c>
+<w xml:id="w0005590"><choice><orig>wiefe</orig><reg>wife</reg></choice></w>
+<c xml:id="c0005600"> </c>
+<w xml:id="w0005610">do</w>
+<c xml:id="c0005620"> </c>
+<w xml:id="w0005630"><choice><orig>committ</orig><reg>commit</reg></choice></w>
+<c xml:id="c0005640"> </c>
+<w xml:id="w0005650">you</w>
+<c xml:id="c0005660"> </c>
+<w xml:id="w0005670"><choice><orig>vnto</orig><reg>unto</reg></choice></w>
+<c xml:id="c0005680"> </c>
+<w xml:id="w0005690"><choice><orig>thalmightie</orig><reg><w xml:id="w0005690a">the</w><c xml:id="c0005690b"> </c><w xml:id="w0005690c">Almighty</w></reg></choice></w>
+<c xml:id="c0005700"> </c>
+<seg xml:id="seg-003" type="dateline">
+<placeName xml:id="name-001">
+<w xml:id="w0005710"><choice><orig>Blythfield</orig><reg>Blithfield</reg></choice></w>
+</placeName>
+<lb xml:id="lb-0021"/>
+<w xml:id="w0005720">this</w>
+<c xml:id="c0005730"> </c>
+<w xml:id="w0005740"><choice><orig>xix</orig><reg>19</reg></choice></w>
+<c xml:id="c0005750"> </c>
+<w xml:id="w0005760">of</w>
+<c xml:id="c0005770"> </c>
+<w xml:id="w0005780"><choice><orig>no<ex>vember</ex></orig><reg>November</reg></choice></w>
+</seg>
+</p>
+</div>
+</div>
+<pb n="leaf 1 verso"/>
+</body>
+</text>
+</TEI>

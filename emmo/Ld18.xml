@@ -1,0 +1,501 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?xml-stylesheet type="text/xsl" href="emmo.xsl"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<teiHeader>
+<fileDesc>
+<titleStmt>
+<title>Letter from Anne Bacon (née Gresham) to Lady Anne Gresham(?), 1572/1573 February?: manuscript draft</title>
+<author>Bacon, Anne</author>
+<respStmt xml:id="MSP">
+  <name>Michael Poston</name>
+  <resp>Encoding Architect</resp>
+</respStmt>
+<respStmt xml:id="CAR">
+  <name>Caitlin Rizzo</name>
+  <resp>Encoding Specialist</resp>
+</respStmt>
+<respStmt xml:id="EMMO">
+  <name>EMMO</name>
+  <resp>Transcriber</resp>
+</respStmt>
+<respStmt xml:id="MegBrown">
+  <name>MegBrown</name>
+  <resp>Transcriber</resp>
+</respStmt>
+<respStmt xml:id="SurekhaDavies">
+  <name>SurekhaDavies</name>
+  <resp>Transcriber</resp>
+</respStmt>
+<respStmt xml:id="AbbieWeinberg">
+  <name>AbbieWeinberg</name>
+  <resp>Transcriber</resp>
+</respStmt>
+<respStmt xml:id="DanielYabut">
+  <name>DanielYabut</name>
+  <resp>Transcriber</resp>
+</respStmt>
+<respStmt xml:id="SarahPowell">
+  <name>SarahPowell</name>
+  <resp>Transcriber</resp>
+</respStmt>
+<respStmt xml:id="PaulDingman">
+  <name>PaulDingman</name>
+  <resp>Transcriber</resp>
+</respStmt>
+<respStmt xml:id="Vet-SarahPowell">
+  <name>Vet-SarahPowell</name>
+  <resp>Transcription Collator</resp>
+</respStmt>
+</titleStmt>
+<editionStmt>
+<edition n="1.0.2">First release</edition>
+</editionStmt>
+<publicationStmt>
+<publisher>Folger Shakespeare Library</publisher>
+<idno>Ld18</idno>
+<address>
+<addrLine>201 East Capitol Street, SE</addrLine>
+<addrLine>Washington, DC 20003</addrLine>
+<addrLine>http://emmo.folger.edu</addrLine>
+<addrLine>emmo@folger.edu</addrLine>
+</address>
+<availability>
+<licence target="https://creativecommons.org/licenses/by-sa/4.0/">This allows you to use our transcriptions without additional permission provided that you cite the Early Modern Manuscripts Online (EMMO) Project at the Folger Shakespeare Library as the source and that you license anything you create using the transcriptions under the same or equivalent license. EMMO and the Folger waive permission fees for non-commercial publication by registered non-profits, including university presses, regardless of the license they use. For information about using the images that correspond to the transcriptions, see Image Permissions (http://www.folger.edu/permissions).</licence>
+</availability>
+<date>August, 2017</date>
+</publicationStmt>
+<sourceDesc>
+<listBibl>
+<msDesc xml:id="Ld18">
+<msIdentifier>
+<repository>Folger Shakespeare Library</repository>
+<collection xml:id="dfobacontownshend">Papers of the Bacon-Townshend family of Stiffkey, Norfolk</collection>
+<idno type="BBID">110545</idno>
+<msName>L.d.18</msName>
+</msIdentifier>
+<msContents>
+<summary>In Nathaniel Bacon's hand.</summary>
+<msItem>
+<author>Bacon, Anne</author>
+<title>Letter from Anne Bacon (née Gresham) to Lady Anne Gresham(?), 1572/1573 February?: manuscript draft</title>
+</msItem>
+</msContents>
+<history>
+<origin when="1573-02-01">1572/1573 February?</origin>
+</history>
+</msDesc>
+</listBibl>
+</sourceDesc>
+</fileDesc>
+<encodingDesc>
+<tagsDecl>
+<namespace name="http://www.tei-c.org/ns/1.0">
+<tagUsage gi="pb">Marks the beginning of a page or page spread.</tagUsage>
+<tagUsage gi="lb">Marks a line break in the manuscript.</tagUsage>
+<tagUsage gi="fw">Records information such as page numbers that appear on every page.</tagUsage>
+<tagUsage gi="note">Includes notes, including administrative notes written on the manuscript.</tagUsage>
+<tagUsage gi="div">Marks a logical division of the text. In letters, for example, marks the body, superscription, endorsement, etc.</tagUsage>
+<tagUsage gi="head">Marks the page or div header.</tagUsage>
+<tagUsage gi="label">Marks labels in the text.</tagUsage>
+<tagUsage gi="p">Marks paragraphs in the text.</tagUsage>
+<tagUsage gi="opener">Contains opening information that appears outside a paragraph, for letter-like documents.</tagUsage>
+<tagUsage gi="closer">Contains closing information that appears outside a paragraph, for letter-like documents.</tagUsage>
+<tagUsage gi="postscript">Contains additional information that appears after the closer, for letter-like documents.</tagUsage>
+<tagUsage gi="seg">Used to mark other divisions in the text. For letter-like documents, the dateline, salute, and signed elements in our texts do not always follow the TEI model, and therefore they are marked by seg elements.</tagUsage>
+<tagUsage gi="add">Marks additions to the text, authorial and otherwise.</tagUsage>
+<tagUsage gi="abbr">Marks abbreviation markers, including brevigraphs, macrons, superscription, and suspension.</tagUsage>
+<tagUsage gi="g">Marks special characters such as the <term xml:id="thorn">thorn</term>, the archaic letter that looks like a "y" and may be updated to "th".</tagUsage>
+<tagUsage gi="metamark">Marks special characters that may function as abbreviation or insertion markers.</tagUsage>
+<tagUsage gi="w">Marks a word (or more, for compound words), giving the original and regularized versions.</tagUsage>
+<tagUsage gi="orig">Offers the transcription of a word used to generate the diplomatic and semi-diplomatic readings.</tagUsage>
+<tagUsage gi="reg">Offers the regularized spelling of a word.</tagUsage>
+<tagUsage gi="c">Marks a space character in the text.</tagUsage>
+<tagUsage gi="pc">Marks a punctuation character in the text.</tagUsage>
+<tagUsage gi="gap">Marks a place where the text is illegible.</tagUsage>
+<tagUsage gi="supplied">Marks a place where EMMO supplies illegible text.</tagUsage>
+<tagUsage gi="foreign">Marks non-English words.</tagUsage>
+<tagUsage gi="name">Identifies personal names in the text.</tagUsage>
+<tagUsage gi="placeName">Identifies place names in the text.</tagUsage>
+<tagUsage gi="title">Identifies titles in the text.</tagUsage>
+<tagUsage gi="measure">Identifies measurements and amounts in the text.</tagUsage>
+<tagUsage gi="hi">Marks sections of the text that are otherwise highlighted.</tagUsage>
+</namespace>
+</tagsDecl>
+<appInfo>
+<application ident="Dromio" version="0.5.0">
+<label>Dromio Transcription/Collation tool</label>
+</application>
+</appInfo>
+<projectDesc>
+<p>EMMO: Early Modern Manuscripts Online</p>
+</projectDesc>
+</encodingDesc>
+<revisionDesc>
+<change when="2017-08-01" status="published" who="#MSP">Version 1.0.2 released. Regularization of #w0000010 changed from Madame to Madam.</change>
+<change when="2017-05-18" status="published" who="#MSP #CAR">Version 1.0.1 released. Header updated.</change>
+<change when="2017-01-09" status="published" who="#MSP #CAR">Version 1.0 released</change>
+<change when="2016-10-10T15:00:00-05:00" status="processed" who="#CAR #MSP">Encoding updated. Spelling regularized with help from VARD.</change>
+<change when="2016-09-09T13:41:14-04:00" target="#RF-46850" status="draft" who="#Vet-SarahPowell"/>
+<change when="2016-09-09T13:40:36-04:00" target="#RF-46850" status="draft" who="#MegBrown"/>
+<change when="2016-09-09T13:29:24-04:00" target="#RF-46850" status="arbitration" who="#Vet-SarahPowell"/>
+<change when="2016-09-09T13:27:48-04:00" target="#RF-46850" status="draft" who="#SarahPowell"/>
+<change when="2016-09-09T13:26:09-04:00" target="#RF-46850" status="draft" who="#SarahPowell"/>
+<change when="2016-09-09T13:19:22-04:00" target="#RF-46850" status="draft" who="#MegBrown"/>
+<change when="2016-09-09T13:18:56-04:00" target="#RF-46850" status="draft" who="#MegBrown"/>
+<change when="2016-09-09T13:17:44-04:00" target="#RF-46850" status="draft" who="#MegBrown"/>
+<change when="2016-09-09T13:17:22-04:00" target="#RF-46850" status="draft" who="#MegBrown"/>
+<change when="2016-09-09T13:10:12-04:00" target="#RF-46850" status="draft" who="#SarahPowell"/>
+<change when="2016-09-09T13:06:20-04:00" target="#RF-46850" status="draft" who="#SarahPowell"/>
+<change when="2016-09-09T13:05:34-04:00" target="#RF-46850" status="draft" who="#SarahPowell"/>
+<change when="2016-06-09T12:26:27-04:00">Updated to version 0.5.0</change>
+<change when="2015-06-11T12:22:52-04:00" target="#RF-46850" status="draft" who="#SarahPowell"/>
+<change when="2015-06-09T13:49:38-04:00" target="#RF-46850" status="draft" who="#SarahPowell"/>
+<change when="2015-05-06T11:56:00-04:00" target="#RF-46850" status="draft" who="#SarahPowell"/>
+<change when="2015-05-05T16:28:17-04:00" target="#RF-46850" status="draft" who="#AbbieWeinberg"/>
+<change when="2015-05-05T16:24:55-04:00" target="#RF-46850" status="draft" who="#DanielYabut"/>
+<change when="2015-05-05T16:24:54-04:00" target="#RF-46850" status="draft" who="#MegBrown"/>
+<change when="2015-05-05T16:22:34-04:00" target="#RF-46850" status="draft" who="#MegBrown"/>
+</revisionDesc>
+</teiHeader>
+<sourceDoc corresp="Ld18">
+<surface xml:id="RF-46850" n="leaf 1 recto">
+<media url="http://flgr.sh/imgpdi46850" mimeType="image/jpeg"/>
+</surface>
+<surface xml:id="RF-46851" n="leaf 1 verso">
+<media url="http://flgr.sh/imgpdi46851" mimeType="image/jpeg"/>
+</surface>
+</sourceDoc>
+<text>
+<body>
+<pb n="leaf 1 recto"/>
+<note xml:id="note-001" type="administrative" subtype="callNum">L.d.18</note>
+<div xml:id="div-001" type="letter">
+<div xml:id="div-002" type="letter" subtype="body">
+<p xml:id="seg-001">
+<seg xml:id="seg-004" type="salute" subtype="opener">
+<w xml:id="w0000010"><choice><orig>Madame</orig><reg>Madam</reg></choice></w>
+<pc xml:id="p0000020">,</pc>
+</seg>
+<c xml:id="c0000030"> </c>
+<w xml:id="w0000040">I</w>
+<c xml:id="c0000050"> </c>
+<w xml:id="w0000060">thought</w>
+<c xml:id="c0000070"> </c>
+<w xml:id="w0000080">it</w>
+<c xml:id="c0000090"> </c>
+<w xml:id="w0000100">good</w>
+<c xml:id="c0000110"> </c>
+<w xml:id="w0000120">for</w>
+<c xml:id="c0000130"> </c>
+<w xml:id="w0000140">me</w>
+<c xml:id="c0000150"> </c>
+<w xml:id="w0000160">to</w>
+<c xml:id="c0000170"> </c>
+<w xml:id="w0000180"><choice><orig>writ</orig><reg>write</reg></choice></w>
+<c xml:id="c0000190"> </c>
+<w xml:id="w0000200"><choice><orig>somthinge</orig><reg>something</reg></choice></w>
+<c xml:id="c0000210"> </c>
+<w xml:id="w0000220">to</w>
+<lb xml:id="lb-0001"/>
+<w xml:id="w0000230"><choice><orig>y<abbr type="superscription"><ex>ou</ex>r</abbr></orig><reg>your</reg></choice></w>
+<c xml:id="c0000240"> </c>
+<w xml:id="w0000250"><choice><orig><abbr type="suspension">La<metamark function="expansion">:</metamark><ex>dyship</ex></abbr></orig><reg>Ladyship</reg></choice></w>
+<c xml:id="c0000260"> </c>
+<w xml:id="w0000270">though</w>
+<c xml:id="c0000280"> </c>
+<w xml:id="w0000290">I</w>
+<c xml:id="c0000300"> </c>
+<w xml:id="w0000310"><choice><orig>wrot</orig><reg>wrote</reg></choice></w>
+<c xml:id="c0000320"> </c>
+<w xml:id="w0000330"><choice><orig><g ref="#thorn">th</g><abbr type="superscription">e</abbr></orig><reg>the</reg></choice></w>
+<c xml:id="c0000340"> </c>
+<w xml:id="w0000350"><choice><orig>lesse</orig><reg>less</reg></choice></w>
+<pc xml:id="p0000360">,</pc>
+<c xml:id="c0000370"> </c>
+<w xml:id="w0000380">least</w>
+<c xml:id="c0000390"> </c>
+<w xml:id="w0000400">by</w>
+<c xml:id="c0000410"> </c>
+<w xml:id="w0000420">not</w>
+<c xml:id="c0000430"> </c>
+<w xml:id="w0000440"><choice><orig>writinge</orig><reg>writing</reg></choice></w>
+<lb xml:id="lb-0002"/>
+<w xml:id="w0000450">I</w>
+<c xml:id="c0000460"> </c>
+<w xml:id="w0000470"><choice><orig>sholde</orig><reg>should</reg></choice></w>
+<c xml:id="c0000480"> </c>
+<w xml:id="w0000490"><choice><orig>seame</orig><reg>seem</reg></choice></w>
+<c xml:id="c0000500"> </c>
+<w xml:id="w0000510">to</w>
+<c xml:id="c0000520"> </c>
+<w xml:id="w0000530">forget</w>
+<c xml:id="c0000540"> </c>
+<w xml:id="w0000550"><choice><orig><g ref="#thorn">th</g><abbr type="superscription"><ex>a</ex>t</abbr></orig><reg>that</reg></choice></w>
+<c xml:id="c0000560"> </c>
+<w xml:id="w0000570"><choice><orig>dutie</orig><reg>duty</reg></choice></w>
+<pc xml:id="p0000580">,</pc>
+<c xml:id="c0000590"> </c>
+<w xml:id="w0000600"><choice><orig>w<abbr type="superscription"><ex>hi</ex>ch</abbr></orig><reg>which</reg></choice></w>
+<c xml:id="c0000610"> </c>
+<w xml:id="w0000620">I</w>
+<c xml:id="c0000630"> </c>
+<w xml:id="w0000640"><choice><orig>iustly</orig><reg>justly</reg></choice></w>
+<c xml:id="c0000650"> </c>
+<w xml:id="w0000660">owe</w>
+<c xml:id="c0000670"> </c>
+<w xml:id="w0000680"><choice><orig>vnto</orig><reg>unto</reg></choice></w>
+<lb xml:id="lb-0003"/>
+<w xml:id="w0000690"><choice><orig>y<abbr type="superscription"><ex>ou</ex>r</abbr></orig><reg>your</reg></choice></w>
+<c xml:id="c0000700"> </c>
+<w xml:id="w0000710"><choice><orig><abbr type="suspension">La<metamark function="expansion">:</metamark><ex>dyship</ex></abbr></orig><reg>Ladyship</reg></choice></w>
+<pc xml:id="p0000720">.</pc>
+<c xml:id="c0000730"> </c>
+<w xml:id="w0000740">I</w>
+<c xml:id="c0000750"> </c>
+<w xml:id="w0000760"><choice><orig>vnderstande</orig><reg>understand</reg></choice></w>
+<c xml:id="c0000770"> </c>
+<w xml:id="w0000780"><choice><orig>allmost</orig><reg>almost</reg></choice></w>
+<c xml:id="c0000790"> </c>
+<w xml:id="w0000800">every</w>
+<c xml:id="c0000810"> </c>
+<w xml:id="w0000820"><choice><orig>weake</orig><reg>week</reg></choice></w>
+<c xml:id="c0000830"> </c>
+<w xml:id="w0000840">by</w>
+<c xml:id="c0000850"> </c>
+<name xml:id="name-001">
+<w xml:id="w0000860">Mr</w>
+<lb xml:id="lb-0004"/>
+<w xml:id="w0000870"><choice><orig>Stringar</orig><reg>Stringer</reg></choice></w>
+</name>
+<c xml:id="c0000880"> </c>
+<w xml:id="w0000890">of</w>
+<c xml:id="c0000900"> </c>
+<w xml:id="w0000910"><choice><orig>y<abbr type="superscription"><ex>ou</ex>r</abbr></orig><reg>your</reg></choice></w>
+<c xml:id="c0000920"> </c>
+<w xml:id="w0000930"><choice><orig><abbr type="suspension">La<metamark function="expansion">:</metamark><ex>dyship</ex></abbr></orig><reg>Ladyship's</reg></choice></w>
+<c xml:id="c0000940"> </c>
+<w xml:id="w0000950">good</w>
+<c xml:id="c0000960"> </c>
+<w xml:id="w0000970">health</w>
+<c xml:id="c0000980"> </c>
+<w xml:id="w0000990">&amp;</w>
+<c xml:id="c0001000"> </c>
+<w xml:id="w0001010">my</w>
+<c xml:id="c0001020"> </c>
+<w xml:id="w0001030"><choice><orig>fathers</orig><reg>father's</reg></choice></w>
+<pc xml:id="p0001040">,</pc>
+<c xml:id="c0001050"> </c>
+<w xml:id="w0001060"><choice><orig>w<abbr type="superscription"><ex>hi</ex>ch</abbr></orig><reg>which</reg></choice></w>
+<c xml:id="c0001070"> </c>
+<w xml:id="w0001080">I</w>
+<c xml:id="c0001090"> </c>
+<w xml:id="w0001100">am</w>
+<lb xml:id="lb-0005"/>
+<w xml:id="w0001110">very</w>
+<c xml:id="c0001120"> </c>
+<w xml:id="w0001130">glad</w>
+<c xml:id="c0001140"> </c>
+<w xml:id="w0001150">to</w>
+<c xml:id="c0001160"> </c>
+<w xml:id="w0001170"><choice><orig>heare</orig><reg>hear</reg></choice></w>
+<c xml:id="c0001180"> </c>
+<w xml:id="w0001190">of</w>
+<pc xml:id="p0001200">.</pc>
+<c xml:id="c0001210"> </c>
+<w xml:id="w0001220">I</w>
+<c xml:id="c0001230"> </c>
+<w xml:id="w0001240">myself</w>
+<c xml:id="c0001250"> </c>
+<w xml:id="w0001260">am</w>
+<c xml:id="c0001270"> </c>
+<w xml:id="w0001280"><choice><orig>somwhat</orig><reg>somewhat</reg></choice></w>
+<c xml:id="c0001290"> </c>
+<w xml:id="w0001300">sickly</w>
+<pc xml:id="p0001310">.</pc>
+<lb xml:id="lb-0006"/>
+<w xml:id="w0001320">Some</w>
+<c xml:id="c0001330"> </c>
+<w xml:id="w0001340"><choice><orig><abbr type="brevigraph" subtype="brev-p">p<ex>er</ex></abbr>swade</orig><reg>persuade</reg></choice></w>
+<c xml:id="c0001350"> </c>
+<w xml:id="w0001360">me</w>
+<pc xml:id="p0001370">,</pc>
+<c xml:id="c0001380"> </c>
+<w xml:id="w0001390"><choice><orig><g ref="#thorn">th</g><abbr type="superscription"><ex>a</ex>t</abbr></orig><reg>that</reg></choice></w>
+<c xml:id="c0001400"> </c>
+<w xml:id="w0001410">it</w>
+<c xml:id="c0001420"> </c>
+<w xml:id="w0001430">is</w>
+<c xml:id="c0001440"> </c>
+<w xml:id="w0001450">to</w>
+<c xml:id="c0001460"> </c>
+<w xml:id="w0001470">a</w>
+<c xml:id="c0001480"> </c>
+<w xml:id="w0001490">good</w>
+<c xml:id="c0001500"> </c>
+<w xml:id="w0001510">end</w>
+<pc xml:id="p0001520">.</pc>
+<c xml:id="c0001530"> </c>
+<w xml:id="w0001540">My</w>
+<c xml:id="c0001550"> </c>
+<w xml:id="w0001560"><choice><orig>owne</orig><reg>own</reg></choice></w>
+<c xml:id="c0001570"> </c>
+<w xml:id="w0001580" next="#w0001590"><choice><orig>experi<metamark function="hyphenation">=</metamark></orig><reg>experience</reg></choice></w>
+<lb xml:id="lb-0007" break="no"/>
+<w xml:id="w0001590" prev="#w0001580"><choice><orig>ence</orig><reg></reg></choice></w>
+<c xml:id="c0001600"> </c>
+<lb xml:id="lb-0007r" break="reg"/>
+<pc xml:id="p0001610">(</pc>
+<w xml:id="w0001620">as</w>
+<c xml:id="c0001630"> </c>
+<w xml:id="w0001640"><choice><orig>y<abbr type="superscription"><ex>ou</ex>r</abbr></orig><reg>your</reg></choice></w>
+<c xml:id="c0001650"> </c>
+<w xml:id="w0001660"><choice><orig><abbr type="suspension">La<metamark function="expansion">:</metamark><ex>dyship</ex></abbr></orig><reg>Ladyship</reg></choice></w>
+<c xml:id="c0001670"> </c>
+<w xml:id="w0001680"><choice><orig>knoweth</orig><reg>knows</reg></choice></w>
+<pc xml:id="p0001690">)</pc>
+<c xml:id="c0001700"> </c>
+<w xml:id="w0001710">is</w>
+<c xml:id="c0001720"> </c>
+<w xml:id="w0001730">small</w>
+<c xml:id="c0001740"> </c>
+<w xml:id="w0001750">to</w>
+<c xml:id="c0001760"> </c>
+<w xml:id="w0001770"><choice><orig>iudg</orig><reg>judge</reg></choice></w>
+<pc xml:id="p0001780">.</pc>
+<c xml:id="c0001790"> </c>
+<w xml:id="w0001800"><choice><orig>Suer</orig><reg>Sure</reg></choice></w>
+<c xml:id="c0001810"> </c>
+<w xml:id="w0001820">I</w>
+<c xml:id="c0001830"> </c>
+<w xml:id="w0001840">am</w>
+<pc xml:id="p0001850">,</pc>
+<c xml:id="c0001860"> </c>
+<w xml:id="w0001870"><choice><orig>ther</orig><reg>there</reg></choice></w>
+<lb xml:id="lb-0008"/>
+<w xml:id="w0001880">is</w>
+<c xml:id="c0001890"> </c>
+<w xml:id="w0001900">yet</w>
+<c xml:id="c0001910"> </c>
+<w xml:id="w0001920">no</w>
+<c xml:id="c0001930"> </c>
+<w xml:id="w0001940"><choice><orig>certeintie</orig><reg>certainty</reg></choice></w>
+<c xml:id="c0001950"> </c>
+<w xml:id="w0001960">of</w>
+<c xml:id="c0001970"> </c>
+<w xml:id="w0001980"><choice><orig><g ref="#thorn">th</g><abbr type="superscription"><ex>a</ex>t</abbr></orig><reg>that</reg></choice></w>
+<c xml:id="c0001990"> </c>
+<w xml:id="w0002000"><choice><orig><g ref="#thorn">th</g><abbr type="superscription">e</abbr>i</orig><reg>they</reg></choice></w>
+<c xml:id="c0002010"> </c>
+<w xml:id="w0002020"><choice><orig>saie</orig><reg>say</reg></choice></w>
+<pc xml:id="p0002030">.</pc>
+<c xml:id="c0002040"> </c>
+<w xml:id="w0002050">Yet</w>
+<c xml:id="c0002060"> </c>
+<w xml:id="w0002070">I</w>
+<c xml:id="c0002080"> </c>
+<w xml:id="w0002090">hope</w>
+<c xml:id="c0002100"> </c>
+<w xml:id="w0002110">well</w>
+<pc xml:id="p0002120">,</pc>
+<c xml:id="c0002130"> </c>
+<w xml:id="w0002140">&amp;</w>
+<c xml:id="c0002150"> </c>
+<w xml:id="w0002160">I</w>
+<lb xml:id="lb-0009"/>
+<w xml:id="w0002170"><choice><orig>praie</orig><reg>pray</reg></choice></w>
+<c xml:id="c0002180"> </c>
+<w xml:id="w0002190">to</w>
+<c xml:id="c0002200"> </c>
+<w xml:id="w0002210">God</w>
+<c xml:id="c0002220"> </c>
+<w xml:id="w0002230">I</w>
+<c xml:id="c0002240"> </c>
+<w xml:id="w0002250">be</w>
+<c xml:id="c0002260"> </c>
+<w xml:id="w0002270">not</w>
+<c xml:id="c0002280"> </c>
+<w xml:id="w0002290">deceived</w>
+<c xml:id="c0002300"> </c>
+<w xml:id="w0002310">of</w>
+<c xml:id="c0002320"> </c>
+<w xml:id="w0002330">my</w>
+<c xml:id="c0002340"> </c>
+<w xml:id="w0002350">hope</w>
+<pc xml:id="p0002360">.</pc>
+<c xml:id="c0002370"> </c>
+<w xml:id="w0002380">Thus</w>
+<c xml:id="c0002390"> </c>
+<w xml:id="w0002400"><choice><orig>w<abbr type="superscription"><ex>i</ex>th</abbr></orig><reg>with</reg></choice></w>
+<lb xml:id="lb-0010"/>
+<w xml:id="w0002410">humble</w>
+<c xml:id="c0002420"> </c>
+<w xml:id="w0002430">remembrance</w>
+<c xml:id="c0002440"> </c>
+<w xml:id="w0002450">of</w>
+<c xml:id="c0002460"> </c>
+<w xml:id="w0002470">my</w>
+<c xml:id="c0002480"> </c>
+<w xml:id="w0002490"><choice><orig>dutie</orig><reg>duty</reg></choice></w>
+<c xml:id="c0002500"> </c>
+<w xml:id="w0002510">to</w>
+<c xml:id="c0002520"> </c>
+<w xml:id="w0002530">my</w>
+<c xml:id="c0002540"> </c>
+<w xml:id="w0002550">father</w>
+<c xml:id="c0002560"> </c>
+<w xml:id="w0002570">I</w>
+<c xml:id="c0002580"> </c>
+<w xml:id="w0002590">take</w>
+<lb xml:id="lb-0011"/>
+<w xml:id="w0002600">my</w>
+<c xml:id="c0002610"> </c>
+<w xml:id="w0002620">leave</w>
+<pc xml:id="p0002630">,</pc>
+<c xml:id="c0002640"> </c>
+<w xml:id="w0002650"><choice><orig>wisshinge</orig><reg>wishing</reg></choice></w>
+<c xml:id="c0002660"> </c>
+<w xml:id="w0002670"><choice><orig>y<abbr type="superscription"><ex>ou</ex>r</abbr></orig><reg>your</reg></choice></w>
+<c xml:id="c0002680"> </c>
+<w xml:id="w0002690"><choice><orig><abbr type="suspension">La<metamark function="expansion">:</metamark><ex>dyship</ex></abbr></orig><reg>Ladyship</reg></choice></w>
+<c xml:id="c0002700"> </c>
+<w xml:id="w0002710"><choice><orig>longe</orig><reg>long</reg></choice></w>
+<c xml:id="c0002720"> </c>
+<w xml:id="w0002730">to</w>
+<c xml:id="c0002740"> </c>
+<w xml:id="w0002750">live</w>
+<c xml:id="c0002760"> </c>
+<w xml:id="w0002770">in</w>
+<c xml:id="c0002780"> </c>
+<w xml:id="w0002790"><choice><orig><abbr type="brevigraph" subtype="brev-p">p<ex>er</ex></abbr>fect</orig><reg>perfect</reg></choice></w>
+<c xml:id="c0002800"> </c>
+<w xml:id="w0002810">health</w>
+<pc xml:id="p0002820">.</pc>
+</p>
+<lb xml:id="lb-0012"/>
+<closer xml:id="seg-002">
+<seg xml:id="seg-003" type="signed">
+<name xml:id="name-002">
+<w xml:id="w0002830">Anne</w>
+<c xml:id="c0002840"> </c>
+<w xml:id="w0002850"><choice><orig>bacon</orig><reg>Bacon</reg></choice></w>
+</name>
+<lb xml:id="lb-0013"/>
+<name xml:id="name-003">
+<w xml:id="w0002860">Anne</w>
+<c xml:id="c0002870"> </c>
+<w xml:id="w0002880"><choice><orig>bacon</orig><reg>Bacon</reg></choice></w>
+</name>
+<lb xml:id="lb-0014"/>
+<name xml:id="name-004">
+<w xml:id="w0002890">Anne</w>
+<c xml:id="c0002900"> </c>
+<w xml:id="w0002910"><choice><orig>bacon</orig><reg>Bacon</reg></choice></w>
+</name>
+</seg>
+</closer>
+</div>
+</div>
+<pb n="leaf 1 verso"/>
+</body>
+</text>
+</TEI>
